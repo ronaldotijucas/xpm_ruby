@@ -65,7 +65,7 @@ module XpmRuby
     end
 
     def xpm_url
-      "https://api.xero.com/practicemanager/3.0/"
+      "https://api.xero.com/practicemanager/3.1/"
     end
 
     def handle_response(response)
