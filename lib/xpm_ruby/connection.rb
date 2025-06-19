@@ -69,10 +69,6 @@ module XpmRuby
     end
 
     def handle_response(response)
-      puts "--------------------------------"
-      puts response.body
-      puts response.status
-      puts "--------------------------------"
       case response.status
       when 401
         detail = JSON.parse(response.body)["Detail"]
