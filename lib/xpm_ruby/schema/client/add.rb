@@ -21,7 +21,7 @@ module XpmRuby
         WebSite?: Types::String,
         ReferralSource?: Types::String,
         ExportCode?: Types::String,
-        AccountManagerID?: Types::String,
+        AccountManagerUUID?: Types::String,
         Contacts?: Types::Array.of(
           Types::Hash.schema(
             Name: Types::String,
@@ -44,7 +44,7 @@ module XpmRuby
         LastName?: Types::String,
         OtherName?: Types::String,
         DateOfBirth?: Types::Coercible::String,
-        JobManagerID?: Types::Coercible::String,
+        JobManagerUUID?: Types::Coercible::String,
         TaxNumber?: Types::Coercible::String,
         CompanyNumber?: Types::Coercible::String,
         BusinessNumber?: Types::Coercible::String,
