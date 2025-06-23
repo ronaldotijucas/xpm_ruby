@@ -34,7 +34,6 @@ module XpmRuby
             Position?: Types::String
           ).with_key_transform(&:to_sym)
         ),
-        BusinessStructure?: Types::String,
         BankBSB?: Types::Coercible::String,
         BankAccountName?: Types::String,
         BankAccountNumber?: Types::Coercible::String,
